@@ -34,7 +34,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,12 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="src\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Quiz.cs" />
-    <Compile Include="Entry.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="USERS_DATABASE.cs" />
+    <Compile Include="src\Quiz.cs" />
+    <Compile Include="src\Entry.cs" />
+    <Compile Include="src\User.cs" />
+    <Compile Include="src\USERS_DATABASE.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
