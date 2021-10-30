@@ -2,20 +2,19 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Quiz
+namespace QuizGame
 {
     public class Game
     {
         private List<User> UsersDatabase = USERS_DATABASE.GetUsers();
         private User UserNOW;
 
-        public void GameMenu()
+        public void Start()
         {
             Console.WriteLine("Главное меню");
-
             string[] menu = { "Вход", "Регистрация", "Все пользователи", "Выход" };
             int pos = 0;
-
+          
             while (pos != 3)
             {
                 pos = Menu.VerticalMenu(menu);

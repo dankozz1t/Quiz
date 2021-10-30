@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuizGame
+namespace QuizEditor
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Game quiz = new Game();
-            quiz.Start();
-
-            Console.ReadKey();
+            QuizEditor quizEditor = new QuizEditor();
+            quizEditor.Start();
         }
     }
 }

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuizFull.USERS_DATABASE">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\USERS_DATABASE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizFull.Game">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAQAAAAAAAAAAAAgAAAAACAAAAAQAAA=</HashCode>
+      <FileName>src\Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizFull.User">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAQAAAAIAAACAAAQAAAAAAA=</HashCode>
+      <FileName>src\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="QuizFull.Access">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAA=</HashCode>
+      <FileName>src\User.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

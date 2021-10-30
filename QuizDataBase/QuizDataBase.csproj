@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D8FAD3D8-A53A-4372-9824-DF2C15B1CB3C}</ProjectGuid>
+    <ProjectGuid>{5AFE5C7F-AE17-4366-A14E-23342810A5C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Quiz</RootNamespace>
-    <AssemblyName>Quiz</AssemblyName>
+    <RootNamespace>QuizDataBase</RootNamespace>
+    <AssemblyName>QuizDataBase</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,12 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.IO.Compression" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
-    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,17 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBase\QUIZ_DATABASE.cs" />
     <Compile Include="DataBase\USERS_DATABASE.cs" />
-    <Compile Include="src\Game.cs" />
-    <Compile Include="src\Menu.cs" />
-    <Compile Include="src\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\Entry.cs" />
-    <Compile Include="src\User.cs" />
+    <Compile Include="Utility\Menu.cs" />
+    <Compile Include="Utility\Quiz.cs" />
+    <Compile Include="Utility\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

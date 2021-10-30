@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <questions>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>FullStack</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>BackEnd</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>FrontEnd</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Web это?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>программист</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Менеджер</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Большой дядя</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Повар</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>TeamLead это?</question>
+    </Question>
+  </questions>
+  <saveAs>It</saveAs>
+  <field>IT</field>
+</Quiz>
