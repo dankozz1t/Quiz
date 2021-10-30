@@ -41,7 +41,6 @@ namespace QuizGame
                     Console.ReadKey();
                 }
             }
-
         }
 
         private void MenuUser()
@@ -77,11 +76,7 @@ namespace QuizGame
                     case 2: break;
                     case 3: break;
                 }
-
             }
-
-
-            Console.ReadKey();
         }
 
         private void LoadQuizzes()

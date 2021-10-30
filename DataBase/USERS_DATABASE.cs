@@ -20,11 +20,5 @@ namespace QuizGame
             users.Add(user);
         }
 
-        //public static void RemoveUsers(User user)
-        //{
-        //    users.Remove(user);
-        //}
-
-
     }
 }
