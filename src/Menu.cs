@@ -16,11 +16,10 @@ namespace QuizGame
             ConsoleColor fg = Console.ForegroundColor;
             int x = Console.CursorLeft;
             int y = Console.CursorTop;
-            Console.CursorVisible = false;
+            //Console.CursorVisible = true;
             int pos = 0;
             while (true)
             {
-
                 for (int i = 0; i < elements.Length; i++)
                 {
                     Console.CursorVisible = false;
@@ -39,6 +38,10 @@ namespace QuizGame
                 }
 
                 ConsoleKey consoleKey = Console.ReadKey().Key;
+
+                Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop + 2);
+                Console.ResetColor();
+
                 switch (consoleKey)
                 {
                     case ConsoleKey.Enter:
@@ -63,6 +66,7 @@ namespace QuizGame
                         break;
                 }
             }
+
         }
     }
 }

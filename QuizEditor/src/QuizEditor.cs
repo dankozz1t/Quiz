@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
+using QuizGame;
 
 namespace QuizEditor
 {
     public class QuizEditor
     {
-        private List<Quiz> QuizzesDataBase = QUIZ_DATABASE.GetQuizes();
-
-        //private static List<Quiz> QuizzesDataBase = new List<Quiz>();
+        private List<Quiz> QuizzesDataBase = QUIZZES_DATABASE.GetQuizes();
+        //private List<User> UsersDataBase = USERS_DATABASE.GetUsers();
 
         public void Start()
         {

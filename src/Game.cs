@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
+using System.Xml.Serialization;
+using QuizEditor;
 
 namespace QuizGame
 {
     public class Game
     {
-        private List<User> UsersDatabase = USERS_DATABASE.GetUsers();
+        private List<User> Users = USERS_DATABASE.GetUsers();
+        private List<Quiz> Quizzes = QUIZZES_DATABASE.GetQuizes();
         private User UserNOW;
 
         public void Start()
@@ -14,7 +18,7 @@ namespace QuizGame
             Console.WriteLine("Главное меню");
             string[] menu = { "Вход", "Регистрация", "Все пользователи", "Выход" };
             int pos = 0;
-          
+
             while (pos != 3)
             {
                 pos = Menu.VerticalMenu(menu);
@@ -29,7 +33,7 @@ namespace QuizGame
                 }
                 else if (pos == 2)
                 {
-                    foreach (var user in UsersDatabase)
+                    foreach (var user in Users)
                     {
                         Console.WriteLine(user);
                     }
@@ -42,6 +46,7 @@ namespace QuizGame
 
         private void MenuUser()
         {
+            LoadQuizzes();
             Console.WriteLine($"{UserNOW.Name}, привет!");
 
             string[] menu = { "Викторины", "Мои результаты", "Общая статистика", "Настройки", "Выход" };
@@ -53,7 +58,21 @@ namespace QuizGame
 
                 switch (pos)
                 {
-                    case 0: break;
+                    case 0:
+                        string[] menuQuiz = new string[Quizzes.Count];
+                        for (int i = 0; i < Quizzes.Count; i++)
+                        {
+                            menuQuiz[i] = $"Викторина: {Quizzes[i].field} | Количество Вопросов: {Quizzes[i].questions.Count}";
+                        }
+                        int posQuiz = Menu.VerticalMenu(menuQuiz);
+
+                        Console.WriteLine();
+                        Quizzes[posQuiz].Show();
+
+
+                        Console.ReadKey();
+
+                        break;
                     case 1: break;
                     case 2: break;
                     case 3: break;
@@ -65,6 +84,22 @@ namespace QuizGame
             Console.ReadKey();
         }
 
+        private void LoadQuizzes()
+        {
+            string[] path = Directory.GetFiles("../../Save/");
+
+            for (int i = 0; i < path.Length; i++)
+            {
+                XmlSerializer formatter = new XmlSerializer(typeof(Quiz));
+                using (FileStream fs = new FileStream(path[i], FileMode.OpenOrCreate))
+                {
+                    Quiz quizzes = (Quiz)formatter.Deserialize(fs);
+
+                    Quizzes.Add(quizzes);
+                }
+            }
+        }
+
         //---------------------------------------------------------РЕГИСТРАЦИЯ 
         private void SingUP()
         {
@@ -74,9 +109,9 @@ namespace QuizGame
             Console.Write("Введите логин: ");
             login = Console.ReadLine();
 
-            for (int i = 0; i < UsersDatabase.Count; i++)
+            for (int i = 0; i < Users.Count; i++)
             {
-                if (UsersDatabase[i].Login != login)
+                if (Users[i].Login != login)
                 {
                     continue;
                 }
@@ -105,14 +140,14 @@ namespace QuizGame
 
             User userReg = new User(login, password, name, birthDay, access);
 
-            USERS_DATABASE.AddUsers(userReg);
-            UserNOW = UsersDatabase[UsersDatabase.Count - 1];
+            USERS_DATABASE.AddUser(userReg);
+            UserNOW = Users[Users.Count - 1];
         }
 
         //---------------------------------------------------------ВХОД 
         private void SingIN()
         {
-            if (UsersDatabase.Count <= 0)
+            if (Users.Count <= 0)
                 Console.WriteLine("Еще нет пользователей");
             else
             {
@@ -133,15 +168,15 @@ namespace QuizGame
                         password = Console.ReadLine();
                     }
 
-                    for (int i = 0; i < UsersDatabase.Count; i++)
+                    for (int i = 0; i < Users.Count; i++)
                     {
-                        if (UsersDatabase[i].Login == login)
+                        if (Users[i].Login == login)
                         {
                             log = true;
-                            if (UsersDatabase[i].Password == password.GetHashCode().ToString())
+                            if (Users[i].Password == password.GetHashCode().ToString())
                             {
                                 pas = true;
-                                UserNOW = UsersDatabase[i];
+                                UserNOW = Users[i];
                             }
                             else
                             {
