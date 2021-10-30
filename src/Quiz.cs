@@ -1,8 +1,14 @@
-﻿namespace Quiz
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+
+namespace Quiz
 {
     public class Quiz
     {
-        private User User;
+      
+
+
 
     }
 }
