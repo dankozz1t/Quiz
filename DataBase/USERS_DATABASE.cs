@@ -15,7 +15,7 @@ namespace QuizGame
             return users;
         }
 
-        public static void AddUsers(User user)
+        public static void AddUser(User user)
         {
             users.Add(user);
         }
