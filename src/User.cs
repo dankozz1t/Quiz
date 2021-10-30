@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Quiz
+namespace QuizGame
 {
     public enum Access
     {

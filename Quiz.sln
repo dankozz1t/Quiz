@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz.csproj", "{D8FAD3D8-A53A-4372-9824-DF2C15B1CB3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizGame", "QuizGame.csproj", "{D8FAD3D8-A53A-4372-9824-DF2C15B1CB3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizEditor", "QuizEditor\QuizEditor.csproj", "{53FCA03E-FF7F-4058-8AD8-A3177EA2B0E2}"
 EndProject

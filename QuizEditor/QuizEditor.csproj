@@ -45,12 +45,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Answer.cs" />
+    <Compile Include="src\Question.cs" />
+    <Compile Include="src\Quiz.cs" />
+    <Compile Include="src\QuizEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <ProjectReference Include="..\QuizGame.csproj">
+      <Project>{d8fad3d8-a53a-4372-9824-df2c15b1cb3c}</Project>
+      <Name>QuizGame</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

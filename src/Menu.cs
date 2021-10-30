@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Quiz
+namespace QuizGame
 {
-    class Menu
+    public class Menu
     {
         public static int VerticalMenu(string[] elements)
         {

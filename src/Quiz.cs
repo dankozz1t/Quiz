@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Quiz
+namespace QuizGame
 {
     public class Quiz
     {
