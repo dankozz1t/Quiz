@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace QuizEditor
+namespace QuizGame
 {
     [Serializable]
     public class Answer

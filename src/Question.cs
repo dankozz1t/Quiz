@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace QuizEditor
+namespace QuizGame
 {
     [Serializable]
     public class Question
