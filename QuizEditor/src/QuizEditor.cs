@@ -8,9 +8,6 @@ namespace QuizEditor
 {
     public class QuizEditor
     {
-        private List<Quiz> QuizzesDataBase = QUIZZES_DATABASE.GetQuizes();
-        //private List<User> UsersDataBase = USERS_DATABASE.GetUsers();
-
         public void Start()
         {
             Console.WriteLine("Редактор Викторин (ТОЛЬКО АДМИНАМ)");
@@ -38,7 +35,7 @@ namespace QuizEditor
             string[] menu = { "Создать Викторину", "Посмотреть Викторины", "Редактировать Викторину", "Удалить Викторину", "Выход" };
             int pos = 0;
 
-            Load();
+            QUIZZES_DATABASE.LoadQuizzes(false);
             while (pos != 4)
             {
                 pos = QuizGame.Menu.VerticalMenu(menu);
@@ -48,16 +45,17 @@ namespace QuizEditor
                         CreateQuiz();
                         break;
                     case 1:
-                        foreach (var quiz in QuizzesDataBase)
+                        foreach (var quiz in QUIZZES_DATABASE.GetQuizes())
                         {
                             quiz.Show();
                             Console.WriteLine("------------------");
                         }
+                        ConsoleGui.Wait();
                         break;
                     case 2: break;
                     case 3: break;
                 }
-                Save();
+               QUIZZES_DATABASE.SaveQuizzes();
                 Console.ReadLine();
             }
         }
@@ -88,7 +86,7 @@ namespace QuizEditor
             Console.Write("Введите имя файла: ");
             quiz.saveAs = Console.ReadLine();
 
-            QuizzesDataBase.Add(quiz);
+            QUIZZES_DATABASE.AddQuiz(quiz);
         }
 
         private void AddQuestion(Quiz quiz)
@@ -113,37 +111,6 @@ namespace QuizEditor
                 quiz.questions[index].answers.Add(answer);
             }
 
-        }
-
-        private void Save()
-        {
-            XmlSerializer formatter = new XmlSerializer(typeof(Quiz));
-
-            foreach (var quiz in QuizzesDataBase)
-            {
-                string path = "../../../Save/" + quiz.saveAs + ".xml";
-
-                using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
-                {
-                    formatter.Serialize(fs, quiz);
-                }
-            }
-        }
-
-        private void Load()
-        {
-            string[] path = Directory.GetFiles("../../../Save/");
-
-            for (int i = 0; i < path.Length; i++)
-            {
-                XmlSerializer formatter = new XmlSerializer(typeof(Quiz));
-                using (FileStream fs = new FileStream(path[i], FileMode.OpenOrCreate))
-                {
-                    Quiz quizzes = (Quiz)formatter.Deserialize(fs);
-
-                    QuizzesDataBase.Add(quizzes);
-                }
-            }
         }
     }
 }
