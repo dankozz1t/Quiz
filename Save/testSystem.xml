@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <questions>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Da</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Net</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Da?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Da</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Net</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Net?</question>
+    </Question>
+  </questions>
+  <saveAs>testSystem</saveAs>
+  <field>TestSystem</field>
+</Quiz>
