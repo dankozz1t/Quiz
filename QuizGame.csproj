@@ -51,6 +51,7 @@
     <Compile Include="DataBase\QUIZZES_DATABASE.cs" />
     <Compile Include="DataBase\USERS_DATABASE.cs" />
     <Compile Include="src\Answer.cs" />
+    <Compile Include="src\ConsoleGui.cs" />
     <Compile Include="src\Game.cs" />
     <Compile Include="src\Menu.cs" />
     <Compile Include="src\Program.cs" />
