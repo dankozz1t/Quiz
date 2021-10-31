@@ -27,7 +27,7 @@ namespace QuizGame
 
         public override string ToString()
         {
-            return $"log pas : {Login} {Password} | Name: {Name} \nДата рождения : {BirthDay.ToShortDateString()}\n Access: {Access}\n";
+            return $"* Логин: {Login} | Пароль: ***** | Имя: {Name} \n| Дата рождения : {BirthDay.ToShortDateString()} | Доступ: {Access}\n";
         }
 
     }
