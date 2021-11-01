@@ -21,5 +21,17 @@ namespace QuizGame
             Console.ResetColor();
             Console.WriteLine();
         }
+
+        public int CountCorrectAnswers()
+        {
+            int correctAnswers = 0;
+            foreach (var answer in answers)
+            {
+                if (answer.IsRight)
+                    correctAnswers++;
+            }
+
+            return correctAnswers;
+        }
     }
 }
