@@ -18,7 +18,6 @@ namespace QuizGame
 
 
 
-
         public User(string login, string password, string name, DateTime birthDay, Access access)
         {
             Login = login;
@@ -26,6 +25,7 @@ namespace QuizGame
             Name = name;
             BirthDay = birthDay;
             Access = access;
+
         }
 
         public override string ToString()
