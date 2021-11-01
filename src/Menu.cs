@@ -4,7 +4,7 @@ namespace QuizGame
 {
     public class Menu
     {
-        public static int VerticalMenu(string[] elements)
+        public static int VerticalMenu(string[] elements, bool formatter = false)
         {
             int maxLen = 0;
             foreach (var item in elements)
@@ -16,6 +16,11 @@ namespace QuizGame
             ConsoleColor fg = Console.ForegroundColor;
             int x = Console.CursorLeft;
             int y = Console.CursorTop;
+
+            if (formatter)
+                x = (120 - maxLen) / 2;
+            
+
             //Console.CursorVisible = true;
             int pos = 0;
             while (true)
