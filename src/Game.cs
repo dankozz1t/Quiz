@@ -111,6 +111,7 @@ namespace QuizGame
                         i = -1;
                         ConsoleGui.SetPosition(48, 15, true);
                         ConsoleGui.WriteLineColor("Такой логин уже существует!", ConsoleColor.Red, true);
+                        logger.Info($" Попытка регистрации существующего логина | Login: {login} ");
                         ConsoleGui.Wait();
 
                         ConsoleGui.SetPosition(48, 10, true);
