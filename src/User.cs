@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace QuizGame
 {
     public enum Access
@@ -14,6 +15,8 @@ namespace QuizGame
         public string Name { get; set; }
         public DateTime BirthDay { get; set; }
         public Access Access { get; set; }
+
+
 
 
         public User(string login, string password, string name, DateTime birthDay, Access access)

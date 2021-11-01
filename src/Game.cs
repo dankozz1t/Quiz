@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Xml.Serialization;
 
 namespace QuizGame
 {
     public class Game
     {
-        private List<User> Users = USERS_DATABASE.GetUsers();
+        private List<QuizPlayer> QuizPlayers = QuizPlayerDatabase.GetQuizPlayer();
         private List<Quiz> Quizzes = QUIZZES_DATABASE.GetQuizes();
-        private User UserNOW = new User("dankozz1", "123", "Alex", new DateTime(2003, 02, 12), Access.ADMIN);
+        private QuizPlayer UserNOW = new QuizPlayer("dankozz1", "123", "Alex", new DateTime(2003, 02, 12), Access.ADMIN);
 
         public void Start()
         {
@@ -25,7 +26,7 @@ namespace QuizGame
                 if (pos == 0)
                 {
                     //if (SingIN())
-                        MenuUser();
+                    MenuUser();
                 }
                 else if (pos == 1)
                 {
@@ -33,7 +34,7 @@ namespace QuizGame
                 }
                 else if (pos == 2)
                 {
-                    foreach (var user in Users)
+                    foreach (var user in QuizPlayers)
                     {
                         Console.WriteLine(user);
                     }
@@ -69,7 +70,8 @@ namespace QuizGame
                         int posQuiz = Menu.VerticalMenu(menuQuiz);
 
                         Console.WriteLine();
-                        Quizzes[posQuiz].Show();
+                        UserNOW.Play(Quizzes[posQuiz]);
+                        UserNOW.Show();
 
 
                         Console.ReadKey();
@@ -82,18 +84,24 @@ namespace QuizGame
             }
         }
 
+       
+
+        private bool Unique()
+        {
+            return false;
+        }
+
         //---------------------------------------------------------РЕГИСТРАЦИЯ 
         private void SingUP()
         {
             string login = "";
 
             ConsoleGui.SetPosition(48, 10, true);
-            ConsoleGui.WriteColor("Введите логин: ", ConsoleColor.Yellow, true);
-            login = Console.ReadLine();
+            login = ConsoleGui.WhiteReadLine("Введите логин: ", ConsoleColor.Yellow, true);
 
-            for (int i = 0; i < Users.Count; i++)
+            for (int i = 0; i < QuizPlayers.Count; i++)
             {
-                if (Users[i].Login == login)
+                if (QuizPlayers[i].Login == login)
                 {
                     i = -1;
                     ConsoleGui.SetPosition(48, 15, true);
@@ -101,35 +109,30 @@ namespace QuizGame
                     ConsoleGui.Wait();
 
                     ConsoleGui.SetPosition(48, 10, true);
-                    ConsoleGui.WriteColor("Введите логин: ", ConsoleColor.Yellow, true);
-                    login = Console.ReadLine();
+                    login = ConsoleGui.WhiteReadLine("Введите логин: ", ConsoleColor.Yellow, true);
                 }
             }
-            ConsoleGui.WriteColor("Введите пароль: ", ConsoleColor.Yellow, true);
-            string password = Console.ReadLine();
+            string password = ConsoleGui.WhiteReadLine("Введите пароль: ", ConsoleColor.Yellow, true);
+            string name = ConsoleGui.WhiteReadLine("Введите имя: ", ConsoleColor.Yellow, true);
 
-            ConsoleGui.WriteColor("Введите имя: ", ConsoleColor.Yellow, true);
-            string name = Console.ReadLine();
-
-            ConsoleGui.WriteColor("Введите Дату рождения [дд.мм.гггг]: ", ConsoleColor.Yellow, true);
-            string birthDayS = Console.ReadLine();
+            string birthDayS = ConsoleGui.WhiteReadLine("Введите Дату рождения [дд.мм.гггг]: ", ConsoleColor.Yellow, true);
             DateTime birthDay = DateTime.ParseExact(birthDayS, "dd.MM.yyyy", CultureInfo.CurrentCulture);
 
             ConsoleGui.SetPosition(48, 14);
             ConsoleGui.WriteColor("Введите доступ: ", ConsoleColor.Yellow);
             Access access = (Access)Menu.VerticalMenu(new[] { "USER", "ADMIN" });
 
-            User userReg = new User(login, password, name, birthDay, access);
+            QuizPlayer userReg = new QuizPlayer(login, password, name, birthDay, access);
 
-            USERS_DATABASE.AddUser(userReg);
-            UserNOW = Users[Users.Count - 1];
+            QuizPlayerDatabase.AddQuizPlayer(userReg);
+            UserNOW = QuizPlayers[QuizPlayers.Count - 1];
         }
 
         //---------------------------------------------------------ВХОД 
         private bool SingIN()
         {
             ConsoleGui.SetPosition(48, 13, true);
-            if (Users.Count <= 0)
+            if (QuizPlayers.Count <= 0)
             {
 
                 ConsoleGui.WriteLineColor("Еще нет пользователей", ConsoleColor.Cyan, true);
@@ -147,12 +150,10 @@ namespace QuizGame
                     ConsoleGui.WriteColor("log and pas -'q' = Выход", ConsoleColor.Red, true);
 
                     ConsoleGui.SetPosition(48, 10);
-                    ConsoleGui.WriteColor("Введите логин: ", ConsoleColor.Yellow, true);
-                    login = Console.ReadLine();
+                    login = ConsoleGui.WhiteReadLine("Введите логин: ", ConsoleColor.Yellow, true);
 
                     ConsoleGui.SetPosition(48, 11);
-                    ConsoleGui.WriteColor("Введите пароль: ", ConsoleColor.Yellow, true);
-                    password = Console.ReadLine();
+                    password = ConsoleGui.WhiteReadLine("Введите пароль: ", ConsoleColor.Yellow, true);
 
                     if (login == "q")
                     {
@@ -160,13 +161,13 @@ namespace QuizGame
                             return false;
                     }
 
-                    for (int i = 0; i < Users.Count; i++)
+                    for (int i = 0; i < QuizPlayers.Count; i++)
                     {
-                        if (Users[i].Login == login)
+                        if (QuizPlayers[i].Login == login)
                         {
-                            if (Users[i].Password == password.GetHashCode().ToString())
+                            if (QuizPlayers[i].Password == password.GetHashCode().ToString())
                             {
-                                UserNOW = Users[i];
+                                UserNOW = QuizPlayers[i];
                                 return true;
                             }
                             else
