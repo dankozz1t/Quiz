@@ -47,7 +47,7 @@ namespace QuizEditor
                     case 1:
                         foreach (var quiz in QUIZZES_DATABASE.GetQuizes())
                         {
-                            quiz.Show();
+                            quiz.FullShow();
                             Console.WriteLine("------------------");
                         }
                         ConsoleGui.Wait();

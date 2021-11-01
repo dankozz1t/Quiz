@@ -30,7 +30,6 @@ namespace QuizGame
 
         }
 
-
         public static void WriteColor(string str, ConsoleColor color, bool formatter = false)
         {
             if (formatter)
@@ -39,6 +38,18 @@ namespace QuizGame
             Console.ForegroundColor = color;
             Console.Write(str);
             Console.ResetColor();
+        }
+
+        public static string WhiteReadLine(string str, ConsoleColor color, bool formatter = false)
+        {
+            if (formatter)
+                Console.SetCursorPosition((120 - str.Length) / 2, Console.CursorTop);
+
+            Console.ForegroundColor = color;
+            Console.Write(str);
+            Console.ResetColor();
+
+            return Console.ReadLine();
         }
     }
 }
