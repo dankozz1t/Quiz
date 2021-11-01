@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using NLog;
 
 namespace QuizGame
 {
     public class QuizPlayer : User
     {
+        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         private List<Quiz> passedQuizzes = new List<Quiz>();
         public List<int> points = new List<int>();
         public int totalPoints;
@@ -29,6 +31,8 @@ namespace QuizGame
             passedQuizzes.Add(quiz);
             this.points.Add(points);
             totalPoints += points;
+            logger.Info($" Завершил Викторину \"{quiz.field}\" Набрав {points} / {quiz.questions.Count} баллов. | Login: {Login}");
+
         }
 
         private string[] FillMenu(int count, List<Answer> answers) //Заполняет массив стрингов ответами для меню
