@@ -10,8 +10,6 @@ namespace QuizEditor
     {
         static void Main(string[] args)
         {
-            QuizEditor quizEditor = new QuizEditor();
-            quizEditor.Start();
         }
     }
 }
