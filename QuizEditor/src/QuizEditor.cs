@@ -35,7 +35,7 @@ namespace QuizEditor
             string[] menu = { "Создать Викторину", "Посмотреть Викторины", "Редактировать Викторину", "Удалить Викторину", "Выход" };
             int pos = 0;
 
-            QUIZZES_DATABASE.LoadQuizzes(false);
+            QuizzesDatabase.LoadQuizzes();
             while (pos != 4)
             {
                 pos = QuizGame.Menu.VerticalMenu(menu);
@@ -45,7 +45,7 @@ namespace QuizEditor
                         CreateQuiz();
                         break;
                     case 1:
-                        foreach (var quiz in QUIZZES_DATABASE.GetQuizes())
+                        foreach (var quiz in QuizzesDatabase.GetQuizes())
                         {
                             quiz.FullShow();
                             Console.WriteLine("------------------");
@@ -55,7 +55,7 @@ namespace QuizEditor
                     case 2: break;
                     case 3: break;
                 }
-               QUIZZES_DATABASE.SaveQuizzes();
+               QuizzesDatabase.SaveQuizzes();
                 Console.ReadLine();
             }
         }
@@ -86,7 +86,7 @@ namespace QuizEditor
             Console.Write("Введите имя файла: ");
             quiz.saveAs = Console.ReadLine();
 
-            QUIZZES_DATABASE.AddQuiz(quiz);
+            QuizzesDatabase.AddQuiz(quiz);
         }
 
         private void AddQuestion(Quiz quiz)
