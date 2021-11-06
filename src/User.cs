@@ -8,6 +8,7 @@ namespace QuizGame
         USER, ADMIN
     }
 
+    [Serializable]
     public class User
     {
         public string Login { get; set; }
@@ -16,6 +17,7 @@ namespace QuizGame
         public DateTime BirthDay { get; set; }
         public Access Access { get; set; }
 
+        public User() {}
 
 
         public User(string login, string password, string name, DateTime birthDay, Access access)
@@ -30,7 +32,7 @@ namespace QuizGame
 
         public override string ToString()
         {
-            return $"* Логин: {Login} | Пароль: ***** | Имя: {Name} \n| Дата рождения : {BirthDay.ToShortDateString()} | Доступ: {Access}\n";
+            return $"* Логин: {Login} | Пароль: ***** | Имя: {Name} | Дата рождения : {BirthDay.ToShortDateString()} | Доступ: {Access}";
         }
 
     }
