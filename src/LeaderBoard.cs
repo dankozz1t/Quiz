@@ -7,7 +7,6 @@ namespace QuizGame
     [Serializable]
     public class PlayerStats
     {
-        //public QuizPlayer Players;
         public string PlayersLogin;
         public DateTime DateRecord;
         public int Points;
