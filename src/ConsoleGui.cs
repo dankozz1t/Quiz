@@ -14,7 +14,11 @@ namespace QuizGame
 
         public static void Wait(ConsoleColor color = ConsoleColor.Red)
         {
-            Console.SetCursorPosition(46, 28);
+            if (Console.CursorTop >= 27)
+                Console.SetCursorPosition(46, Console.CursorTop + 2);
+            else
+                Console.SetCursorPosition(46, 28);
+
             WriteLineColor("Нажмите что бы продолжить...", color, true);
             Console.ReadKey();
         }
