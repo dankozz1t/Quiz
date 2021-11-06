@@ -1,36 +1,38 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
+using System.Runtime.Serialization;
+
+
 
 namespace QuizGame
 {
-    public static class QUIZZES_DATABASE
+    public static class QuizzesDatabase
     {
-        static QUIZZES_DATABASE() { }
+        static QuizzesDatabase() { }
 
-        private static List<Quiz> quizes = new List<Quiz>();
+        private static List<Quiz> Quizes = new List<Quiz>();
 
         public static List<Quiz> GetQuizes()
         {
-            if (quizes == null)
-                quizes = new List<Quiz>();
-            return quizes;
+            if (Quizes == null)
+                Quizes = new List<Quiz>();
+            return Quizes;
         }
 
         public static void AddQuiz(Quiz quiz)
         {
-            quizes.Add(quiz);
+            Quizes.Add(quiz);
         }
 
-        public static void LoadQuizzes(bool forGame)
+        public static void RemoveQuiz(Quiz quiz)
         {
-            string[] path =null;
+            Quizes.Remove(quiz);
+        }
 
-            if (forGame)
-                path = Directory.GetFiles("../../Save/");
-            else
-                path = Directory.GetFiles("../../../Save/");
-
+        public static void LoadQuizzes()
+        {
+            string[] path = Directory.GetFiles("../../../Save/Quizzes/");
 
             for (int i = 0; i < path.Length; i++)
             {
@@ -39,7 +41,7 @@ namespace QuizGame
                 {
                     Quiz quizzes = (Quiz)formatter.Deserialize(fs);
 
-                    quizes.Add(quizzes);
+                    Quizes.Add(quizzes);
                 }
             }
         }
@@ -48,9 +50,9 @@ namespace QuizGame
         {
             XmlSerializer formatter = new XmlSerializer(typeof(Quiz));
 
-            foreach (var quiz in quizes)
+            foreach (var quiz in Quizes)
             {
-                string path = "../../../Save/" + quiz.saveAs + ".xml";
+                string path = "../../../Save/Quizzes/" + quiz.saveAs + ".xml";
 
                 using (FileStream fs = new FileStream(path, FileMode.OpenOrCreate))
                 {
