@@ -12,6 +12,7 @@ namespace QuizGame
                 if (item.Length > maxLen)
                     maxLen = item.Length;
             }
+
             ConsoleColor bg = Console.BackgroundColor;
             ConsoleColor fg = Console.ForegroundColor;
             int x = Console.CursorLeft;
@@ -19,7 +20,6 @@ namespace QuizGame
 
             if (formatter)
                 x = (120 - maxLen) / 2;
-            
 
             //Console.CursorVisible = true;
             int pos = 0;
@@ -66,7 +66,6 @@ namespace QuizGame
                         if (pos < elements.Length - 1)
                             pos++;
                         break;
-
                     default:
                         break;
                 }
