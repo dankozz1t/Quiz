@@ -10,10 +10,6 @@ namespace QuizGame
     {
         static void Main(string[] args)
         {
-            Game quiz = new Game();
-            quiz.Start();
-
-            Console.ReadKey();
         }
     }
 }
