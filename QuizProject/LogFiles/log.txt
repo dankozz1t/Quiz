@@ -1,0 +1,466 @@
+2021-11-06 17:59:35.1157|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 17:59:39.7779|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 17:59:39.7779|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 17:59:41.1391|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 17:59:42.3386|INFO|QuizGame.Game| Выбор Викторины "Большая сказка". | Login: dankozz1 
+2021-11-06 17:59:48.4435|INFO|QuizGame.QuizPlayer| Завершил Викторину "Большая сказка" Набрав 4 / 7 баллов. | Login: dankozz1
+2021-11-06 18:01:11.0838|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 18:07:09.9007|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 18:07:32.4915|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 18:08:46.2276|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 18:08:53.1307|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:08:53.1307|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:08:57.8526|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:08:58.9319|INFO|QuizGame.Game| Выбор Викторины "Большая сказка". | Login: dankozz1 
+2021-11-06 18:09:05.1647|INFO|QuizGame.QuizPlayer| Завершил Викторину "Большая сказка" Набрав 6 / 7 баллов. | Login: dankozz1
+2021-11-06 18:09:09.3236|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:09:09.9155|INFO|QuizGame.Game| Выбор Викторины "НЕРФ ЛУЧШИЙ!!!!". | Login: dankozz1 
+2021-11-06 18:09:11.5164|INFO|QuizGame.QuizPlayer| Завершил Викторину "НЕРФ ЛУЧШИЙ!!!!" Набрав 0 / 1 баллов. | Login: dankozz1
+2021-11-06 18:09:12.7876|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:09:13.5246|INFO|QuizGame.Game| Выбор Викторины "Еда". | Login: dankozz1 
+2021-11-06 18:09:16.4769|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 18:09:23.5395|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:09:24.9736|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 18:09:28.5956|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 3 баллов. | Login: dankozz1
+2021-11-06 18:09:55.1845|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:09:55.2476|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:09:55.3115|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:09:55.3745|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:09:55.4366|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:09:55.4994|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:09:56.4667|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 18:12:26.2284|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:12:26.2518|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:16:49.3895|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 18:16:56.6530|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 18:17:01.1316|WARN|QuizGame.Game| Словил исключение при регистрации. | Строка не распознана как действительное значение DateTime. 
+2021-11-06 18:17:04.7246|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:17:04.7246|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:17:11.4763|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:17:13.9005|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:17:17.8935|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:17:19.2047|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:17:19.9972|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:17:23.0535|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:17:38.5404|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 18:17:40.7256|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 18:17:42.5248|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 18:18:01.1897|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 18:18:05.2506|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 18:18:08.6766|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:18:08.6766|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:18:09.4757|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:18:10.1888|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:18:13.4215|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:18:31.7887|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:18:31.8117|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:19:36.0704|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 18:19:38.9246|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:19:38.9246|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:19:39.6454|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:19:40.2298|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:19:43.9816|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:20:13.1087|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:20:13.1297|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:20:13.8448|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:20:14.6775|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:20:17.2944|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 18:37:07.9189|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 18:37:08.4377|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 18:37:22.9497|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:37:22.9497|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:37:24.9345|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:37:25.5520|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:37:29.3208|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:37:44.8857|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:37:44.8857|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:37:49.3587|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:37:49.8153|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:37:52.9993|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:55:42.5365|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:55:42.5584|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:56:08.8496|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:56:08.8706|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:56:44.4899|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:56:44.5115|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:58:33.2269|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 18:58:37.0806|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 18:58:37.0806|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 18:58:45.7455|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:58:53.0255|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:58:57.1636|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 18:59:04.0894|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 18:59:04.6339|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 18:59:07.5539|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 19:02:23.6665|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 19:02:27.3703|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 19:02:38.7229|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:03:46.2170|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:03:46.2170|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:03:48.2116|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:03:48.7457|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:03:52.6757|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 19:03:55.5465|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:03:56.2575|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:03:58.8348|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:01.9618|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:02.3859|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:05.1696|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:05.9857|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:06.3297|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:08.4580|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:09.1147|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:09.4107|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:11.3783|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:14.0256|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:14.4501|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:16.6096|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:17.1776|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:17.4017|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:20.2674|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:20.8574|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:21.2581|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:23.0837|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:23.6417|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:23.9059|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:26.0187|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:29.5620|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:30.0506|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:32.6105|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:04:33.3626|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:04:34.0506|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:04:36.2259|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:05:15.3946|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:05:15.3946|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:14:11.8186|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 19:15:10.8756|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:15:13.6416|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:15:13.6436|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:15:14.6188|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:15:15.0678|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:15:17.9155|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:16:03.0908|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:16:03.5795|INFO|QuizGame.Game| Выбор Викторины "TestSystem". | Login: dankozz1 
+2021-11-06 19:16:06.2114|INFO|QuizGame.QuizPlayer| Завершил Викторину "TestSystem" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:31:48.8858|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:31:56.4357|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:31:56.4357|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:31:57.5803|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:32:01.7166|INFO|QuizGame.Game| Выбор Викторины "Test". | Login: dankozz1 
+2021-11-06 19:32:08.2214|INFO|QuizGame.QuizPlayer| Завершил Викторину "Test" Набрав 3 / 4 баллов. | Login: dankozz1
+2021-11-06 19:33:51.8527|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:33:51.8777|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:33:52.7080|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:35:36.9898|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:35:37.0128|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:35:43.3670|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:35:43.8137|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 19:35:48.4215|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:39:07.8219|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:39:07.8439|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:39:27.7656|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:39:28.3187|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 19:39:32.3268|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:41:47.3358|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:41:58.1494|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 19:42:01.9485|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:42:01.9485|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:42:02.5576|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:42:03.3097|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 19:42:06.9435|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:43:07.3443|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:43:15.3096|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:43:15.3096|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:43:21.7984|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:43:22.4475|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 19:43:25.4710|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 19:43:30.1594|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:43:31.0465|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 19:43:34.5346|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 19:44:12.2317|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 19:44:19.8944|INFO|QuizGame.Game| Регистрация пользователя. | Login: dan 
+2021-11-06 19:44:24.3174|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz1 
+2021-11-06 19:44:27.5018|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dan 
+2021-11-06 19:44:27.5018|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dan 
+2021-11-06 19:44:28.2949|INFO|QuizGame.Game| Вход в Викторины. | Login: dan 
+2021-11-06 19:44:28.8860|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dan 
+2021-11-06 19:44:32.1027|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dan
+2021-11-06 19:45:43.7592|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:45:48.9339|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:45:48.9339|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:45:49.6536|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:45:50.2466|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 19:45:52.1908|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 19:46:13.1017|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:46:13.1017|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:46:13.8695|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:46:14.6625|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 19:46:16.4948|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 19:46:37.7497|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 19:46:41.0757|INFO|QuizGame.Game| Неверно введенный логин. | Login: Vi 
+2021-11-06 19:46:41.0757|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: Vi 
+2021-11-06 19:46:41.0757|INFO|QuizGame.Game| Вход в меню пользователя. | Login: Vi 
+2021-11-06 19:46:41.8698|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 19:46:43.0718|INFO|QuizGame.Game| Выбор Викторины "It". | Login: Vi 
+2021-11-06 19:46:44.1664|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 0 / 1 баллов. | Login: Vi
+2021-11-06 19:48:02.4637|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 19:48:09.4867|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:48:14.0297|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:48:14.0297|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:48:15.2228|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:48:15.8713|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 19:48:17.3915|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 19:53:04.7986|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 19:53:05.2546|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 19:57:37.8560|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 19:57:41.2434|WARN|QuizGame.Game| Словил исключение при регистрации. | Строка не распознана как действительное значение DateTime. 
+2021-11-06 19:58:05.1285|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 19:58:08.9427|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 19:58:08.9427|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 19:58:10.8636|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 19:58:11.5917|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 19:58:12.9442|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 20:04:01.5766|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 20:04:07.3255|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 20:04:31.0499|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 20:04:35.2158|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:04:35.2158|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:04:36.4489|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:04:36.9047|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 20:04:38.6007|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 20:15:18.8030|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 20:15:23.6406|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:15:23.6426|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:15:27.6097|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:15:28.1307|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 20:15:29.9860|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 20:16:49.2577|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 20:16:52.1601|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 20:17:10.5629|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 20:17:14.4407|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:17:14.4407|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:17:16.6100|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:17:17.0350|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 20:17:36.6180|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 20:18:05.5298|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:18:05.5518|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:18:33.4179|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:18:33.4399|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:18:34.5784|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:18:35.3470|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 20:18:36.9228|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 20:18:37.8198|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:18:38.0419|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 20:18:40.1068|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 1 / 1 баллов. | Login: dankozz1
+2021-11-06 20:19:01.2424|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:19:01.2621|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:19:02.5066|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:19:09.6510|INFO|QuizGame.Game| Выбор Викторины "It". | Login: dankozz1 
+2021-11-06 20:19:11.3956|INFO|QuizGame.QuizPlayer| Завершил Викторину "It" Набрав 0 / 1 баллов. | Login: dankozz1
+2021-11-06 20:21:11.4989|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 20:21:15.3857|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 20:21:18.9289|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:21:18.9289|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 20:21:19.9549|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 20:21:20.5230|INFO|QuizGame.Game| Выбор Викторины "ЕДАААААААААААА". | Login: dankozz1 
+2021-11-06 20:21:26.3388|INFO|QuizGame.QuizPlayer| Завершил Викторину "ЕДАААААААААААА" Набрав 3 / 3 баллов. | Login: dankozz1
+2021-11-06 20:22:07.4512|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 20:22:07.4718|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:30:25.2240|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 21:30:28.1124|WARN|QuizGame.Game| Словил исключение при регистрации. | Строка не распознана как действительное значение DateTime. 
+2021-11-06 21:30:32.2171|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:30:32.2171|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:30:53.7944|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:30:53.8144|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:30:54.5616|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:30:55.1782|INFO|QuizGame.Game| Выбор Викторины "ЕДАААААААААААА". | Login: dankozz1 
+2021-11-06 21:31:04.8985|INFO|QuizGame.QuizPlayer| Завершил Викторину "ЕДАААААААААААА" Набрав 3 / 3 баллов. | Login: dankozz1
+2021-11-06 21:31:24.3206|INFO|QuizGame.Game| Неверно введенный логин. | Login: Vi 
+2021-11-06 21:31:26.1512|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 21:31:30.6573|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:31:30.6573|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:31:32.0902|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:31:32.9465|INFO|QuizGame.Game| Выбор Викторины "ЕДАААААААААААА". | Login: dankozz1 
+2021-11-06 21:31:36.5782|INFO|QuizGame.QuizPlayer| Завершил Викторину "ЕДАААААААААААА" Набрав 0 / 3 баллов. | Login: dankozz1
+2021-11-06 21:31:43.1380|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:31:43.5219|INFO|QuizGame.Game| Выбор Викторины "ЕДАААААААААААА". | Login: dankozz1 
+2021-11-06 21:31:46.4826|INFO|QuizGame.QuizPlayer| Завершил Викторину "ЕДАААААААААААА" Набрав 0 / 3 баллов. | Login: dankozz1
+2021-11-06 21:34:49.5149|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:34:49.5349|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:34:50.2256|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:34:50.8501|INFO|QuizGame.Game| Выбор Викторины "ЕДАААААААААААА". | Login: dankozz1 
+2021-11-06 21:34:56.4608|INFO|QuizGame.QuizPlayer| Завершил Викторину "ЕДАААААААААААА" Набрав 3 / 3 баллов. | Login: dankozz1
+2021-11-06 21:38:00.4193|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:38:43.9458|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 21:39:29.3876|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:39:31.6016|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 21:39:42.3219|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 21:39:45.1145|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:39:45.1145|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:39:45.9700|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:39:46.5155|INFO|QuizGame.Game| Выбор Викторины "ItTest". | Login: dankozz1 
+2021-11-06 21:39:49.1396|INFO|QuizGame.QuizPlayer| Завершил Викторину "ItTest" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 21:39:55.2752|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:39:55.8588|INFO|QuizGame.Game| Выбор Викторины "ItTest". | Login: dankozz1 
+2021-11-06 21:39:58.8589|INFO|QuizGame.QuizPlayer| Завершил Викторину "ItTest" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 21:43:38.0532|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz 
+2021-11-06 21:43:41.6811|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 21:43:41.7451|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 21:43:41.7451|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz 
+2021-11-06 21:43:41.7451|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz 
+2021-11-06 21:43:42.7160|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz 
+2021-11-06 21:43:43.1314|INFO|QuizGame.Game| Выбор Викторины "ItTest". | Login: dankozz 
+2021-11-06 21:43:45.2603|INFO|QuizGame.QuizPlayer| Завершил Викторину "ItTest" Набрав 1 / 2 баллов. | Login: dankozz
+2021-11-06 21:47:55.1005|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 21:47:58.5846|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 21:48:00.7276|WARN|QuizGame.Game| Словил исключение при регистрации. | Строка не распознана как действительное значение DateTime. 
+2021-11-06 21:48:05.0896|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz1 
+2021-11-06 21:48:05.0896|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:48:05.0896|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:48:25.6133|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:48:30.0354|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:48:30.0354|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:48:37.4523|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:48:38.0599|INFO|QuizGame.Game| Выбор Викторины "ItTest". | Login: dankozz1 
+2021-11-06 21:48:41.9244|INFO|QuizGame.QuizPlayer| Завершил Викторину "ItTest" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 21:50:00.1652|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 21:50:06.1567|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:50:08.9953|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:50:08.9953|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:50:09.8120|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:50:10.4206|INFO|QuizGame.Game| Выбор Викторины "ItTest". | Login: dankozz1 
+2021-11-06 21:50:13.4762|INFO|QuizGame.QuizPlayer| Завершил Викторину "ItTest" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 21:52:10.2298|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 21:52:17.1970|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:52:20.8831|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:52:20.8831|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:52:29.6202|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:52:30.1088|INFO|QuizGame.Game| Выбор Викторины "DF". | Login: dankozz1 
+2021-11-06 21:52:32.9567|INFO|QuizGame.QuizPlayer| Завершил Викторину "DF" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 21:56:21.9013|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:56:26.1962|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:56:26.1962|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:56:28.2371|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:56:28.5814|INFO|QuizGame.Game| Выбор Викторины "Еда тест". | Login: dankozz1 
+2021-11-06 21:56:31.5890|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда тест" Набрав 2 / 2 баллов. | Login: dankozz1
+2021-11-06 21:58:52.3787|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 21:58:55.1083|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 21:59:03.2209|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz 
+2021-11-06 21:59:18.6149|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 21:59:25.2536|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 21:59:30.8509|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 21:59:33.3882|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 21:59:33.3882|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 21:59:34.1564|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 21:59:34.6288|INFO|QuizGame.Game| Выбор Викторины "Еда тест". | Login: dankozz1 
+2021-11-06 21:59:37.0944|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда тест" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:02:41.2144|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:02:44.6125|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:02:44.6125|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:02:46.1419|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:02:46.4221|INFO|QuizGame.Game| Выбор Викторины "Еда тест". | Login: dankozz1 
+2021-11-06 22:02:48.5581|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда тест" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:03:06.5728|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 22:03:09.4342|INFO|QuizGame.Game| Неверно введенный логин. | Login: Vi 
+2021-11-06 22:03:09.4342|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: Vi 
+2021-11-06 22:03:09.4342|INFO|QuizGame.Game| Вход в меню пользователя. | Login: Vi 
+2021-11-06 22:03:10.0368|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:03:10.4382|INFO|QuizGame.Game| Выбор Викторины "Еда тест". | Login: Vi 
+2021-11-06 22:03:13.0776|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда тест" Набрав 2 / 2 баллов. | Login: Vi
+2021-11-06 22:03:19.5021|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:03:20.0613|INFO|QuizGame.Game| Выбор Викторины "Еда тест". | Login: Vi 
+2021-11-06 22:03:23.8613|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда тест" Набрав 2 / 2 баллов. | Login: Vi
+2021-11-06 22:03:51.9649|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 22:03:52.0469|INFO|QuizGame.Game| Неверно введенный логин. | Login: dankozz 
+2021-11-06 22:03:55.1568|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:03:55.1568|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:05:26.7431|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:05:30.4046|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:05:30.4046|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:05:39.9503|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:05:40.2776|INFO|QuizGame.Game| Выбор Викторины "Еда тест". | Login: dankozz1 
+2021-11-06 22:05:42.3746|INFO|QuizGame.QuizPlayer| Завершил Викторину "Еда тест" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:07:13.2387|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:07:17.3013|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:07:17.3013|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:07:20.8940|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:07:21.4305|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 22:07:24.5513|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:07:39.2134|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 22:07:41.9951|INFO|QuizGame.Game| Неверно введенный логин. | Login: Vi 
+2021-11-06 22:07:41.9951|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: Vi 
+2021-11-06 22:07:41.9951|INFO|QuizGame.Game| Вход в меню пользователя. | Login: Vi 
+2021-11-06 22:07:42.6452|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:07:43.7262|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: Vi 
+2021-11-06 22:07:46.0624|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 2 / 2 баллов. | Login: Vi
+2021-11-06 22:07:54.1177|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:07:54.7343|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: Vi 
+2021-11-06 22:07:57.3507|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 2 / 2 баллов. | Login: Vi
+2021-11-06 22:08:25.1901|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:08:25.2101|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:25:03.3690|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:25:09.9267|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:25:09.9267|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:25:11.0167|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:25:11.4161|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 22:25:13.3209|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:26:02.5197|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 22:26:03.7257|INFO|QuizGame.Game| Неверно введенный логин. | Login:  
+2021-11-06 22:26:04.4074|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 22:26:11.0544|INFO|QuizGame.Game| Попытка регистрации существующего логина | Login: dankozz1 
+2021-11-06 22:26:24.4013|INFO|QuizGame.Game| Неудачная попытка входа. Не существует пользователей.
+2021-11-06 22:26:31.3442|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:26:34.4230|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:26:34.4240|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:26:35.8723|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:26:36.4419|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 22:26:38.9051|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:29:30.8899|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:29:34.9597|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:29:34.9597|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:29:36.1528|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:29:36.5521|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 22:29:39.0094|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:30:20.1147|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:30:23.1284|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:30:23.1284|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:30:23.8400|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:30:24.1523|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 22:30:26.3375|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: dankozz1
+2021-11-06 22:30:40.3600|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 22:30:43.3348|INFO|QuizGame.Game| Неверно введенный логин. | Login: Vi 
+2021-11-06 22:30:43.3348|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: Vi 
+2021-11-06 22:30:43.3348|INFO|QuizGame.Game| Вход в меню пользователя. | Login: Vi 
+2021-11-06 22:30:44.0965|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:30:44.4488|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: Vi 
+2021-11-06 22:30:47.0803|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 2 / 2 баллов. | Login: Vi
+2021-11-06 22:30:48.3605|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:30:48.6808|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: Vi 
+2021-11-06 22:30:50.4424|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 1 / 2 баллов. | Login: Vi
+2021-11-06 22:31:07.0723|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:31:07.0933|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:31:07.9121|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:31:09.6166|INFO|QuizGame.Game| Выбор Викторины "Da". | Login: dankozz1 
+2021-11-06 22:31:11.9454|INFO|QuizGame.QuizPlayer| Завершил Викторину "Da" Набрав 0 / 2 баллов. | Login: dankozz1
+2021-11-06 22:41:39.8913|INFO|QuizGame.Game| Регистрация пользователя. | Login: dankozz1 
+2021-11-06 22:41:44.6572|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:41:44.6592|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:41:45.4910|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:41:45.8423|INFO|QuizGame.Game| Выбор Викторины "TochNoDA". | Login: dankozz1 
+2021-11-06 22:41:49.6748|INFO|QuizGame.QuizPlayer| Завершил Викторину "TochNoDA" Набрав 1 / 3 баллов. | Login: dankozz1
+2021-11-06 22:42:30.8591|INFO|QuizGame.Game| Регистрация пользователя. | Login: Vi 
+2021-11-06 22:42:33.1122|INFO|QuizGame.Game| Неверно введенный логин. | Login: Vi 
+2021-11-06 22:42:33.1122|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: Vi 
+2021-11-06 22:42:33.1122|INFO|QuizGame.Game| Вход в меню пользователя. | Login: Vi 
+2021-11-06 22:42:33.7448|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:42:34.3704|INFO|QuizGame.Game| Выбор Викторины "TochNoDA". | Login: Vi 
+2021-11-06 22:42:38.3870|INFO|QuizGame.QuizPlayer| Завершил Викторину "TochNoDA" Набрав 2 / 3 баллов. | Login: Vi
+2021-11-06 22:42:39.4980|INFO|QuizGame.Game| Вход в Викторины. | Login: Vi 
+2021-11-06 22:42:40.0259|INFO|QuizGame.Game| Выбор Викторины "TochNoDA". | Login: Vi 
+2021-11-06 22:42:43.0984|INFO|QuizGame.QuizPlayer| Завершил Викторину "TochNoDA" Набрав 1 / 3 баллов. | Login: Vi
+2021-11-06 22:42:56.2334|INFO|QuizGame.Game| Выход из меню входа. По кнопке q. 
+2021-11-06 22:43:05.8419|INFO|QuizGame.Game| Успешный Вход пользователя. | Login: dankozz1 
+2021-11-06 22:43:05.8619|INFO|QuizGame.Game| Вход в меню пользователя. | Login: dankozz1 
+2021-11-06 22:43:11.1863|INFO|QuizGame.Game| Вход в Викторины. | Login: dankozz1 
+2021-11-06 22:43:11.5146|INFO|QuizGame.Game| Выбор Викторины "TochNoDA". | Login: dankozz1 
+2021-11-06 22:43:15.7148|INFO|QuizGame.QuizPlayer| Завершил Викторину "TochNoDA" Набрав 3 / 3 баллов. | Login: dankozz1
