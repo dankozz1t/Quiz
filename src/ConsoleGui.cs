@@ -31,7 +31,6 @@ namespace QuizGame
             Console.ForegroundColor = color;
             Console.WriteLine(str);
             Console.ResetColor();
-
         }
 
         public static void WriteColor(string str, ConsoleColor color, bool formatter = false)
