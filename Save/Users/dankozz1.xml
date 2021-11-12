@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <QuizPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Login>dankozz1</Login>
-  <Password>-1623739142</Password>
+  <Password>-1734744873</Password>
   <Name>Alex</Name>
   <BirthDay>2003-02-12T00:00:00</BirthDay>
   <Access>USER</Access>
@@ -12,50 +12,438 @@
           <Question>
             <answers>
               <Answer>
-                <answer>Da</answer>
+                <answer>Партитура</answer>
                 <IsRight>true</IsRight>
               </Answer>
+              <Answer>
+                <answer>Полифония</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Гармония</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Фактура</answer>
+                <IsRight>false</IsRight>
+              </Answer>
             </answers>
-            <question>Da</question>
+            <question>Нотная запись многоголосного музыкального произведения?</question>
           </Question>
           <Question>
             <answers>
               <Answer>
-                <answer>Da</answer>
+                <answer>Ритм</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Темп</answer>
                 <IsRight>true</IsRight>
               </Answer>
               <Answer>
-                <answer>Da</answer>
-                <IsRight>true</IsRight>
+                <answer>Метр</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Тембр</answer>
+                <IsRight>false</IsRight>
               </Answer>
             </answers>
-            <question>Da</question>
+            <question>Мера времени в музыке?</question>
           </Question>
           <Question>
             <answers>
               <Answer>
-                <answer>Da</answer>
+                <answer>Композитор</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Либреттист</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Балетмейстер</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Вокалист</answer>
                 <IsRight>true</IsRight>
               </Answer>
             </answers>
-            <question>Da</question>
+            <question>Какая из этих профессий НЕ имеет отношения к балету?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Один</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Три</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Два</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Ни одного</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Сколько бемолей при ключе имеет тональность си-бемоль мажор?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Стоя</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Лёжа</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Сидя</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Полулежа</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какое положение тема считается для вокалиста наиболее оптимальное во время пения?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Гармония</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Лад</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Фактура</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Динамика</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Музыкальная ткань, стоящая из выразительных средств музыки?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>фа</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>ля</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>си</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>ми</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какая нота следует за нотой соль?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>тихо</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>громко</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>очень тихо</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>очень громко</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Как нужно играть при обозначении в нотах ff?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Кварта</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Секунда</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Терция</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Секста</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В какой из этих музыкальных интервалов является минимальным?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>5</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>7</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>6</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>8</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Сколько основных нот в музыке?</question>
           </Question>
         </questions>
         <leaderBoard>
           <PlayerStats>
             <PlayerStats>
               <PlayersLogin>dankozz1</PlayersLogin>
-              <DateRecord>2021-11-06T22:41:49.6748449+02:00</DateRecord>
+              <DateRecord>2021-11-12T16:11:58.94998+02:00</DateRecord>
+              <Points>8</Points>
+            </PlayerStats>
+          </PlayerStats>
+        </leaderBoard>
+        <saveAs>MusicBasics</saveAs>
+        <name>Азы музыки</name>
+      </PassedQuiz>
+      <DateComplete>2021-11-12T16:11:58.9489781+02:00</DateComplete>
+      <Points>8</Points>
+    </CompleteQuiz>
+    <CompleteQuiz>
+      <PassedQuiz>
+        <questions>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Предупреждает об неисправности светофора</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Разрешает движение</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Запрещает движение</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Что обозначает мигание зеленого сигнала светофора?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Перед началом движения или перестроением</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не обязан</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Перед поворотом или разворотом</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Перед остановкой</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Водитель обязан подавать сигналы световым указателями поворота?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Категория А или подкатегории А1</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Любой категории или подкатегории</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Только категории А или подкатегории А1 в течение двух и более лет</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Какая нужна категория для перевозки людей на мотоцикле?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Не работают пробки топливных баков</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работает механизм регулировки положения сиденья</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работает стеклоподъемник</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работают устройства обогрева</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>При какой неисправности разрешается эксплуатация транспортного средства?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Затормозить и полностью остановиться</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Затормозить и плавно выехать на проездую часть</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не прибегая к торможению выехать на проезжую часть</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Когда колеса авто наезжают на неукрепленную влажную обочину, рекомендуется?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Время с момента обнаружения водителем опастности до полной остановки</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Время с момента обнаружение водителем опастности до начала принятия мер</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Время необходимое для переноса ноги с педали управление на тормоз</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Что понимается под временем реакции водителя?</question>
+          </Question>
+        </questions>
+        <leaderBoard>
+          <PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>dankozz1</PlayersLogin>
+              <DateRecord>2021-11-12T16:56:06.0635719+02:00</DateRecord>
+              <Points>3</Points>
+            </PlayerStats>
+          </PlayerStats>
+        </leaderBoard>
+        <saveAs>TrafficLaws</saveAs>
+        <name>Правила Дорожного Движения</name>
+      </PassedQuiz>
+      <DateComplete>2021-11-12T16:56:06.0625709+02:00</DateComplete>
+      <Points>3</Points>
+    </CompleteQuiz>
+    <CompleteQuiz>
+      <PassedQuiz>
+        <questions>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>А ответ всего один!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Вот тут вот может быть нуууууууу очччччеееенннььь боооолльььшоооойййй вопроссииик?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Конечно!</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Хоть!</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>ТЫЩА!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Еще может быть несколько ответов?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Я правильный!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Я тоже правильный!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>И я правильный!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>А может быть несколько правильны ответов?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>НиииииииииииииииииииииЧеееееееееееееееееееГооооооооооо! Нам ВСЁЁЁЁЁЁЁЁЁЁЁ МОЖНО!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer> :)</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>А что если ответ будет длиииннныййй? </question>
+          </Question>
+        </questions>
+        <leaderBoard>
+          <PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>dankozz1</PlayersLogin>
+              <DateRecord>2021-11-12T17:43:00.8959175+02:00</DateRecord>
+              <Points>4</Points>
+            </PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>Chelovek1</PlayersLogin>
+              <DateRecord>2021-11-12T17:44:31.9188789+02:00</DateRecord>
               <Points>1</Points>
             </PlayerStats>
           </PlayerStats>
         </leaderBoard>
-        <saveAs>da</saveAs>
-        <field>TochNoDA</field>
+        <saveAs>TestForTeacher</saveAs>
+        <name>для Сергея Анатольевича</name>
       </PassedQuiz>
-      <DateComplete>2021-11-06T22:41:49.6748449+02:00</DateComplete>
-      <Points>1</Points>
+      <DateComplete>2021-11-12T17:43:00.8949178+02:00</DateComplete>
+      <Points>4</Points>
     </CompleteQuiz>
   </PassedQuizzes>
-  <TotalPoints>1</TotalPoints>
+  <TotalPoints>15</TotalPoints>
 </QuizPlayer>

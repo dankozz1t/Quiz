@@ -1,0 +1,693 @@
+<?xml version="1.0"?>
+<QuizPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Login>Chelovek1</Login>
+  <Password>1989359300</Password>
+  <Name>Просто-Челикс</Name>
+  <BirthDay>1998-06-09T00:00:00</BirthDay>
+  <Access>USER</Access>
+  <PassedQuizzes>
+    <CompleteQuiz>
+      <PassedQuiz>
+        <questions>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>А ответ всего один!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Вот тут вот может быть нуууууууу очччччеееенннььь боооолльььшоооойййй вопроссииик?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Конечно!</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Хоть!</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>ТЫЩА!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Еще может быть несколько ответов?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Я правильный!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Я тоже правильный!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>И я правильный!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>А может быть несколько правильны ответов?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>НиииииииииииииииииииииЧеееееееееееееееееееГооооооооооо! Нам ВСЁЁЁЁЁЁЁЁЁЁЁ МОЖНО!</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer> :)</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>А что если ответ будет длиииннныййй? </question>
+          </Question>
+        </questions>
+        <leaderBoard>
+          <PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>dankozz1</PlayersLogin>
+              <DateRecord>2021-11-12T17:43:00.8959175+02:00</DateRecord>
+              <Points>4</Points>
+            </PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>Chelovek1</PlayersLogin>
+              <DateRecord>2021-11-12T17:44:31.9188789+02:00</DateRecord>
+              <Points>1</Points>
+            </PlayerStats>
+          </PlayerStats>
+        </leaderBoard>
+        <saveAs>TestForTeacher</saveAs>
+        <name>для Сергея Анатольевича</name>
+      </PassedQuiz>
+      <DateComplete>2021-11-12T17:44:31.9188789+02:00</DateComplete>
+      <Points>1</Points>
+    </CompleteQuiz>
+    <CompleteQuiz>
+      <PassedQuiz>
+        <questions>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>плей-офф</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>эффект</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>оффсайд</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>аффект</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком из этих слов лишняя буква Ф?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>за ранее</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>зараннее</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>за раннее</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>заранее</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какой вариант написания НЕвозможен?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>инцидент</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>черезвычайный</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>компроментировать</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>учереждение</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какое слово написано БЕЗ ошибки?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>нарощенными</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>наращёнными</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>наросченными</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>нарасщёнными</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какими могут быть волосы, ногти и ресницы?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>террор</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>терраса</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>террариум</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>терракт</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Какое слово написано с ошибкой?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>эспрессо</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>режиссёр</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>продюссер</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>экспресс</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком из слов одна буква С лишняя?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>масон</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>трос</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>продюсер</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>кросовки</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком из этих слов пропала буква С?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>А</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>О</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Е</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Ы</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какую букву нельзя вставить в слово П_ЛИТЬ, чтобы получился существующий вариант?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>фетиш</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>цепочка</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>искра</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>граффити</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком слове удаление падает на ПЕРВЫЙ слог?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>гусенИчный</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>мозаИчный</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>опошлЕние</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>гЕнезис</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком слове ударение поставлено НЕправильно?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>епитимьЯ</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>вероисповедАние</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>блАговест</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Иконопись</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком из слов ударение поставлено НЕверно?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>доверху</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>добела</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>дотла</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>донельзя</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>В каком из слов ударение падает на приставку ДО-?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>бутсы</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>кроссовки</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>туфли</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>мокасины</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Какое из этих слов НЕ относится к женскому роду?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>помидоры</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>чулки</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>сапоги</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>грузины</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Какое слово в форме родительского падежа имеет окончание -ОВ?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>чемодан</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>чайник</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>зал</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>человек</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>В сочетании с каким сущест. слова ПОЛНЫЙ и ПУСТОЙ  - не являются антонимами?</question>
+          </Question>
+        </questions>
+        <leaderBoard>
+          <PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>Chelovek1</PlayersLogin>
+              <DateRecord>2021-11-12T17:45:21.2069599+02:00</DateRecord>
+              <Points>6</Points>
+            </PlayerStats>
+          </PlayerStats>
+        </leaderBoard>
+        <saveAs>RussianLanguage</saveAs>
+        <name>Русский Язык</name>
+      </PassedQuiz>
+      <DateComplete>2021-11-12T17:45:21.2069599+02:00</DateComplete>
+      <Points>6</Points>
+    </CompleteQuiz>
+    <CompleteQuiz>
+      <PassedQuiz>
+        <questions>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Предупреждает об неисправности светофора</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Разрешает движение</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Запрещает движение</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Что обозначает мигание зеленого сигнала светофора?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Перед началом движения или перестроением</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не обязан</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Перед поворотом или разворотом</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Перед остановкой</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Водитель обязан подавать сигналы световым указателями поворота?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Категория А или подкатегории А1</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Любой категории или подкатегории</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Только категории А или подкатегории А1 в течение двух и более лет</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Какая нужна категория для перевозки людей на мотоцикле?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Не работают пробки топливных баков</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работает механизм регулировки положения сиденья</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работает стеклоподъемник</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работают устройства обогрева</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>При какой неисправности разрешается эксплуатация транспортного средства?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Затормозить и полностью остановиться</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Затормозить и плавно выехать на проезжую часть</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не прибегая к торможению выехать на проезжую часть</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Когда колеса авто наезжают на неукрепленную влажную обочину, рекомендуется?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Время с момента обнаружения водителем опастности до полной остановки</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Время с момента обнаружение водителем опастности до начала принятия мер</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Время необходимое для переноса ноги с педали управление на тормоз</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Что понимается под временем реакции водителя?</question>
+          </Question>
+        </questions>
+        <leaderBoard>
+          <PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>dankozz1</PlayersLogin>
+              <DateRecord>2021-11-12T16:56:06.0635719+02:00</DateRecord>
+              <Points>3</Points>
+            </PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>Chelovek1</PlayersLogin>
+              <DateRecord>2021-11-12T17:46:26.1269297+02:00</DateRecord>
+              <Points>4</Points>
+            </PlayerStats>
+          </PlayerStats>
+        </leaderBoard>
+        <saveAs>TrafficLaws</saveAs>
+        <name>Правила Дорожного Движения</name>
+      </PassedQuiz>
+      <DateComplete>2021-11-12T17:45:49.6629236+02:00</DateComplete>
+      <Points>3</Points>
+    </CompleteQuiz>
+    <CompleteQuiz>
+      <PassedQuiz>
+        <questions>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Предупреждает об неисправности светофора</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Разрешает движение</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Запрещает движение</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Что обозначает мигание зеленого сигнала светофора?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Перед началом движения или перестроением</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не обязан</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Перед поворотом или разворотом</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Перед остановкой</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Водитель обязан подавать сигналы световым указателями поворота?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Категория А или подкатегории А1</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Любой категории или подкатегории</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Только категории А или подкатегории А1 в течение двух и более лет</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Какая нужна категория для перевозки людей на мотоцикле?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Не работают пробки топливных баков</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работает механизм регулировки положения сиденья</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работает стеклоподъемник</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не работают устройства обогрева</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>При какой неисправности разрешается эксплуатация транспортного средства?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Затормозить и полностью остановиться</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Затормозить и плавно выехать на проезжую часть</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Не прибегая к торможению выехать на проезжую часть</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+            </answers>
+            <question>Когда колеса авто наезжают на неукрепленную влажную обочину, рекомендуется?</question>
+          </Question>
+          <Question>
+            <answers>
+              <Answer>
+                <answer>Время с момента обнаружения водителем опастности до полной остановки</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Время с момента обнаружение водителем опастности до начала принятия мер</answer>
+                <IsRight>true</IsRight>
+              </Answer>
+              <Answer>
+                <answer>Время необходимое для переноса ноги с педали управление на тормоз</answer>
+                <IsRight>false</IsRight>
+              </Answer>
+            </answers>
+            <question>Что понимается под временем реакции водителя?</question>
+          </Question>
+        </questions>
+        <leaderBoard>
+          <PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>dankozz1</PlayersLogin>
+              <DateRecord>2021-11-12T16:56:06.0635719+02:00</DateRecord>
+              <Points>3</Points>
+            </PlayerStats>
+            <PlayerStats>
+              <PlayersLogin>Chelovek1</PlayersLogin>
+              <DateRecord>2021-11-12T17:46:26.1269297+02:00</DateRecord>
+              <Points>4</Points>
+            </PlayerStats>
+          </PlayerStats>
+        </leaderBoard>
+        <saveAs>TrafficLaws</saveAs>
+        <name>Правила Дорожного Движения</name>
+      </PassedQuiz>
+      <DateComplete>2021-11-12T17:46:26.1269297+02:00</DateComplete>
+      <Points>4</Points>
+    </CompleteQuiz>
+  </PassedQuizzes>
+  <TotalPoints>14</TotalPoints>
+</QuizPlayer>
