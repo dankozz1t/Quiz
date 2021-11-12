@@ -21,7 +21,7 @@ namespace QuizGame
             if (formatter)
                 x = (120 - maxLen) / 2;
 
-            //Console.CursorVisible = true;
+            Console.CursorVisible = true;
             int pos = 0;
             while (true)
             {
@@ -47,6 +47,8 @@ namespace QuizGame
                 Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop + 2);
                 Console.ResetColor();
 
+
+                Console.CursorVisible = false;
                 switch (consoleKey)
                 {
                     case ConsoleKey.Enter:
