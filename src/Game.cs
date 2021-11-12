@@ -1,37 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Xml.Serialization;
-using System.Runtime.Serialization;
-
-using NLog;
 
 namespace QuizGame
 {
     public class Game
     {
-        private static readonly Logger logger = LogManager.GetCurrentClassLogger();
-
         private List<QuizPlayer> QuizPlayers = PlayersDatabase.GetQuizPlayer();
         private List<Quiz> Quizzes = QuizzesDatabase.GetQuizes();
-
         private int indexUserNow;
-        private static bool unique = true;
-
+        
         public void Start()
         {
-            if (unique)
-            {
-                PlayersDatabase.LoadUsers();
-                QuizzesDatabase.LoadQuizzes();
-                unique = false;
-            }
-
             Console.ForegroundColor = ConsoleColor.Cyan;
             string[] menu = { "  Вход  ", "  Регистрация  ", "  Все пользователи  ", "  Выход  " };
             int pos = 0;
+            Authorization authorization = new Authorization();
             while (pos != 3)
             {
                 ConsoleGui.SetPosition(48, 13, true);
@@ -40,12 +24,16 @@ namespace QuizGame
 
                 if (pos == 0)
                 {
-                    if (SingIN())
+                    if (authorization.SingIN())
+                    {
+                        indexUserNow = authorization.indexUserNow;
                         MenuUser();
+                    }
                 }
                 else if (pos == 1)
                 {
-                    SingUP();
+                    authorization.SingUP();
+                    indexUserNow = authorization.indexUserNow;
                 }
                 else if (pos == 2)
                 {
@@ -58,7 +46,7 @@ namespace QuizGame
 
         private void MenuUser()
         {
-            logger.Info($" Вход в меню пользователя. | Login: {QuizPlayers[indexUserNow].Login} ");
+            LoggerMes.logger.Info($" Вход в меню пользователя. | Login: {QuizPlayers[indexUserNow].Login} ");
 
             int pos = 0;
             string[] menu = { "  Викторины  ", "  Мои результаты  ", "  Общая статистика  ", "  Настройки  ", "  Выход  " };
@@ -73,18 +61,18 @@ namespace QuizGame
                 switch (pos)
                 {
                     case 0:
-                        logger.Info($" Вход в Викторины. | Login: {QuizPlayers[indexUserNow].Login} ");
+                        LoggerMes.logger.Info($" Вход в Викторины. | Login: {QuizPlayers[indexUserNow].Login} ");
 
                         ConsoleGui.SetPosition(37, 2, true);
 
                         string[] menuQuiz = new string[Quizzes.Count];
                         for (int i = 0; i < Quizzes.Count; i++)
                         {
-                            menuQuiz[i] = $"Викторина: {Quizzes[i].field} | Количество Вопросов: {Quizzes[i].questions.Count}";
+                            menuQuiz[i] = $"Викторина: {Quizzes[i].name} | Количество Вопросов: {Quizzes[i].questions.Count}";
                         }
                         int posQuiz = Menu.VerticalMenu(menuQuiz);
 
-                        logger.Info($" Выбор Викторины \"{Quizzes[posQuiz].field}\". | Login: {QuizPlayers[indexUserNow].Login} ");
+                        LoggerMes.logger.Info($" Выбор Викторины \"{Quizzes[posQuiz].name}\". | Login: {QuizPlayers[indexUserNow].Login} ");
 
                         int points = QuizPlayers[indexUserNow].Play(Quizzes[posQuiz]);
                         Quizzes[posQuiz].leaderBoard.AddPlayerToBoard(QuizPlayers[indexUserNow], points);
@@ -103,7 +91,7 @@ namespace QuizGame
                         string[] menuQuiz2 = new string[Quizzes.Count];
                         for (int i = 0; i < Quizzes.Count; i++)
                         {
-                            menuQuiz2[i] = $"Викторина: {Quizzes[i].field} | Количество Вопросов: {Quizzes[i].questions.Count}";
+                            menuQuiz2[i] = $"Викторина: {Quizzes[i].name} | Количество Вопросов: {Quizzes[i].questions.Count}";
                         }
                         int posQuiz2 = Menu.VerticalMenu(menuQuiz2);
                         Quizzes[posQuiz2].ShowLeaderBoard();
@@ -156,7 +144,7 @@ namespace QuizGame
                         catch (Exception ex)
                         {
                             ConsoleGui.WriteLineColor(ex.Message, ConsoleColor.Red, true);
-                            logger.Warn($" Словил исключение при смене даты рождения. | {ex.Message} ");
+                            LoggerMes.logger.Warn($" Словил исключение при смене даты рождения. | {ex.Message} ");
                             ConsoleGui.Wait();
                         }
                         break;
@@ -183,134 +171,6 @@ namespace QuizGame
                 user.Show(false);
             }
             ConsoleGui.Wait();
-        }
-
-
-        //---------------------------------------------------------РЕГИСТРАЦИЯ 
-        private void SingUP()
-        {
-            string login = "";
-
-            try
-            {
-                ConsoleGui.SetPosition(48, 10, true);
-                login = ConsoleGui.WhiteReadLine("Введите логин: ", ConsoleColor.Yellow, true);
-
-                for (int i = 0; i < QuizPlayers.Count; i++)
-                {
-                    if (QuizPlayers[i].Login == login)
-                    {
-                        i = -1;
-                        ConsoleGui.SetPosition(48, 15, true);
-                        ConsoleGui.WriteLineColor("Такой логин уже существует!", ConsoleColor.Red, true);
-                        logger.Info($" Попытка регистрации существующего логина | Login: {login} ");
-                        ConsoleGui.Wait();
-
-                        ConsoleGui.SetPosition(48, 10, true);
-                        login = ConsoleGui.WhiteReadLine("Введите логин: ", ConsoleColor.Yellow, true);
-                    }
-                }
-                string password = ConsoleGui.WhiteReadLine("Введите пароль: ", ConsoleColor.Yellow, true);
-                string name = ConsoleGui.WhiteReadLine("Введите имя: ", ConsoleColor.Yellow, true);
-
-                string birthDayS =
-                    ConsoleGui.WhiteReadLine("Введите Дату рождения [дд.мм.гггг]: ", ConsoleColor.Yellow, true);
-                DateTime birthDay = DateTime.ParseExact(birthDayS, "dd.MM.yyyy", CultureInfo.CurrentCulture);
-
-                ConsoleGui.SetPosition(48, 14);
-                ConsoleGui.WriteColor("Введите доступ: ", ConsoleColor.Yellow);
-                Access access = (Access)Menu.VerticalMenu(new[] { "USER", "ADMIN" });
-
-                QuizPlayer userReg = new QuizPlayer(login, password, name, birthDay, access);
-
-                PlayersDatabase.AddPlayer(userReg);
-                indexUserNow = QuizPlayers.Count - 1;
-
-                logger.Info($" Регистрация пользователя. | Login: {login} ");
-            }
-            catch (Exception ex)
-            {
-                ConsoleGui.WriteLineColor(ex.Message, ConsoleColor.Red, true);
-                logger.Warn($" Словил исключение при регистрации. | {ex.Message} ");
-                ConsoleGui.Wait();
-            }
-        }
-
-        //---------------------------------------------------------ВХОД 
-        private bool SingIN()
-        {
-            try
-            {
-                ConsoleGui.SetPosition(48, 13, true);
-                if (QuizPlayers.Count <= 0)
-                {
-                    ConsoleGui.WriteLineColor("Еще нет пользователей", ConsoleColor.Cyan, true);
-                    ConsoleGui.Wait();
-                    logger.Info($" Неудачная попытка входа. Не существует пользователей.");
-                    return false;
-                }
-                else
-                {
-                    string login = "", password = "";
-
-                    Console.Clear();
-                    while (login != "q" || password != "q")
-                    {
-                        ConsoleGui.SetPosition(48, 28);
-                        ConsoleGui.WriteColor("log and pas -'q' = Выход", ConsoleColor.Red, true);
-
-                        ConsoleGui.SetPosition(48, 10);
-                        login = ConsoleGui.WhiteReadLine("Введите логин: ", ConsoleColor.Yellow, true);
-
-                        ConsoleGui.SetPosition(48, 11);
-                        password = ConsoleGui.WhiteReadLine("Введите пароль: ", ConsoleColor.Yellow, true);
-
-                        if (login == "q")
-                        {
-                            if (password == "q")
-                            {
-                                logger.Info($" Выход из меню входа. По кнопке q. ");
-                                return false;
-                            }
-                        }
-
-                        for (int i = 0; i < QuizPlayers.Count; i++)
-                        {
-                            if (QuizPlayers[i].Login == login)
-                            {
-                                if (QuizPlayers[i].Password == password.GetHashCode().ToString())
-                                {
-                                    indexUserNow = i;
-                                    logger.Info($" Успешный Вход пользователя. | Login: {login} ");
-                                    return true;
-                                }
-                                else
-                                {
-                                    ConsoleGui.SetPosition(48, 8, true);
-                                    ConsoleGui.WriteLineColor("*Неверный пароль*", ConsoleColor.Red, true);
-                                    logger.Info($" Неверно введенный пароль. | Login: {login} ");
-                                }
-                            }
-                            else
-                            {
-                                ConsoleGui.SetPosition(48, 8, true);
-                                ConsoleGui.WriteLineColor("*Неверный логин*", ConsoleColor.Red, true);
-                                logger.Info($" Неверно введенный логин. | Login: {login} ");
-                            }
-                        }
-                    }
-                    ConsoleGui.Wait();
-                    logger.Info($" Неудачный Вход пользователя. | Login: {login} ");
-                    return false;
-                }
-            }
-            catch (Exception ex)
-            {
-                ConsoleGui.WriteLineColor(ex.Message, ConsoleColor.Red, true);
-                logger.Warn($" Словил исключение при Входе. | {ex.Message} ");
-                ConsoleGui.Wait();
-                return false;
-            }
         }
     }
 }
