@@ -11,14 +11,17 @@ namespace QuizGame
 
         public void Show()
         {
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($" [?] {question}");
+            ConsoleGui.WriteLineColor($" [?] {question}", ConsoleColor.Yellow, true);
 
             foreach (var answer in answers)
             {
-                Console.WriteLine(answer);
+                if(answer.IsRight)
+                    ConsoleGui.WriteLineColor($" [*] {answer.answer}   [{answer.IsRight}]", ConsoleColor.Green, true);
+                else
+                {
+                    ConsoleGui.WriteLineColor($" [*] {answer.answer}   [{answer.IsRight}]", ConsoleColor.Red, true);
+                }
             }
-            Console.ResetColor();
             Console.WriteLine();
         }
 
