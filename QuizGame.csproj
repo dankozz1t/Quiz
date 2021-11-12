@@ -57,11 +57,13 @@
     <Compile Include="src\Answer.cs" />
     <Compile Include="src\ConsoleGui.cs" />
     <Compile Include="src\Game.cs" />
+    <Compile Include="src\LoggerMes.cs" />
     <Compile Include="src\Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\Program.cs" />
     <Compile Include="src\Question.cs" />
     <Compile Include="src\Quiz.cs" />
+    <Compile Include="src\Authorization.cs" />
     <Compile Include="src\User.cs" />
     <Compile Include="src\QuizPlayer.cs" />
   </ItemGroup>
