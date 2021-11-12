@@ -599,7 +599,7 @@
         </xs:attribute>
         <xs:attribute name="appInfo" type="xs:string">
           <xs:annotation>
-            <xs:documentation>AppInfo field. By default it's the friendly name of the current AppDomain.</xs:documentation>
+            <xs:documentation>AppInfo name. By default it's the friendly name of the current AppDomain.</xs:documentation>
           </xs:annotation>
         </xs:attribute>
         <xs:attribute name="ndcItemSeparator" type="xs:string">
@@ -2382,7 +2382,7 @@
         </xs:attribute>
         <xs:attribute name="appInfo" type="xs:string">
           <xs:annotation>
-            <xs:documentation>AppInfo field. By default it's the friendly name of the current AppDomain.</xs:documentation>
+            <xs:documentation>AppInfo name. By default it's the friendly name of the current AppDomain.</xs:documentation>
           </xs:annotation>
         </xs:attribute>
         <xs:attribute name="ndcItemSeparator" type="xs:string">
