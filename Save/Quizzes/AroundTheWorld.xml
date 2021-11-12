@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <questions>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Харакири</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Встреча нового дня</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Чаепитие</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Приветствие солнца</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Ритуально действие у японцев, которое получило название Открытая Душа?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Плачут вместе с ней</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Сажают на строгую диету</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Отрезают волосы</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Откармливают</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Что в Нигерии делают с невестой родные перед свадьбой?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Пьют как прохладный напиток</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Для борьбы с обледенением дорог</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Кормят бродячих псов</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Как дезинфицирующее средство</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Как в штате Вискоинсин (США) используют сырный рассол?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Швейцария</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Индонезия</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Индия</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Китай</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>В какой стране живут Белые Вдовы? (Девушек выдают замуж рано)</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Германия</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>СССР</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Италия</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>В какой стране впервые установился фашисткий режим?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Япония</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Китай</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Корея</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Турция</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Владелец Тайваня</question>
+    </Question>
+  </questions>
+  <leaderBoard>
+    <PlayerStats />
+  </leaderBoard>
+  <saveAs>AroundTheWorld</saveAs>
+  <name>Во круг мира</name>
+</Quiz>

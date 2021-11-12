@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <questions>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Москва</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Новгород</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Санкт-Петербург</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Новосибирск</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Какой город России называют СЕВЕРНОЙ столицей?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Алматы</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Астана</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Караганда</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Столица Казахстана?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Бостон</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Нью-Йорк</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Вашингтон</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Какой город является столицей США?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Шанхай</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Гонконг</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Пекин</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Столица Китая?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Николаев</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Николаев</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Николаев</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Столица Украины?</question>
+    </Question>
+  </questions>
+  <leaderBoard>
+    <PlayerStats />
+  </leaderBoard>
+  <saveAs>CapitalWorld</saveAs>
+  <name>Столицы мира</name>
+</Quiz>

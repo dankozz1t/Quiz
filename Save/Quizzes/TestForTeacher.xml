@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <questions>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>А ответ всего один!</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Вот тут вот может быть нуууууууу очччччеееенннььь боооолльььшоооойййй вопроссииик?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Конечно!</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Хоть!</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>ТЫЩА!</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Еще может быть несколько ответов?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Я правильный!</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Я тоже правильный!</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>И я правильный!</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>А может быть несколько правильны ответов?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>НиииииииииииииииииииииЧеееееееееееееееееееГооооооооооо! Нам ВСЁЁЁЁЁЁЁЁЁЁЁ МОЖНО!</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer> :)</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>А что если ответ будет длиииннныййй? </question>
+    </Question>
+  </questions>
+  <leaderBoard>
+    <PlayerStats>
+      <PlayerStats>
+        <PlayersLogin>dankozz1</PlayersLogin>
+        <DateRecord>2021-11-12T17:43:00.8959175+02:00</DateRecord>
+        <Points>4</Points>
+      </PlayerStats>
+      <PlayerStats>
+        <PlayersLogin>Chelovek1</PlayersLogin>
+        <DateRecord>2021-11-12T17:44:31.9188789+02:00</DateRecord>
+        <Points>1</Points>
+      </PlayerStats>
+    </PlayerStats>
+  </leaderBoard>
+  <saveAs>TestForTeacher</saveAs>
+  <name>для Сергея Анатольевича</name>
+</Quiz>

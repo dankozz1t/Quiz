@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<Quiz xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <questions>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Предупреждает об неисправности светофора</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Разрешает движение</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Запрещает движение</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Что обозначает мигание зеленого сигнала светофора?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Перед началом движения или перестроением</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Не обязан</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Перед поворотом или разворотом</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Перед остановкой</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Водитель обязан подавать сигналы световым указателями поворота?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Категория А или подкатегории А1</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Любой категории или подкатегории</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Только категории А или подкатегории А1 в течение двух и более лет</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Какая нужна категория для перевозки людей на мотоцикле?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Не работают пробки топливных баков</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Не работает механизм регулировки положения сиденья</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Не работает стеклоподъемник</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Не работают устройства обогрева</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>При какой неисправности разрешается эксплуатация транспортного средства?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Затормозить и полностью остановиться</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Затормозить и плавно выехать на проезжую часть</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Не прибегая к торможению выехать на проезжую часть</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+      </answers>
+      <question>Когда колеса авто наезжают на неукрепленную влажную обочину, рекомендуется?</question>
+    </Question>
+    <Question>
+      <answers>
+        <Answer>
+          <answer>Время с момента обнаружения водителем опастности до полной остановки</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Время с момента обнаружение водителем опастности до начала принятия мер</answer>
+          <IsRight>true</IsRight>
+        </Answer>
+        <Answer>
+          <answer>Время необходимое для переноса ноги с педали управление на тормоз</answer>
+          <IsRight>false</IsRight>
+        </Answer>
+      </answers>
+      <question>Что понимается под временем реакции водителя?</question>
+    </Question>
+  </questions>
+  <leaderBoard>
+    <PlayerStats>
+      <PlayerStats>
+        <PlayersLogin>dankozz1</PlayersLogin>
+        <DateRecord>2021-11-12T16:56:06.0635719+02:00</DateRecord>
+        <Points>3</Points>
+      </PlayerStats>
+      <PlayerStats>
+        <PlayersLogin>Chelovek1</PlayersLogin>
+        <DateRecord>2021-11-12T17:46:26.1269297+02:00</DateRecord>
+        <Points>4</Points>
+      </PlayerStats>
+    </PlayerStats>
+  </leaderBoard>
+  <saveAs>TrafficLaws</saveAs>
+  <name>Правила Дорожного Движения</name>
+</Quiz>
