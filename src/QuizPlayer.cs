@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using NLog;
 
 namespace QuizGame
 {
@@ -20,12 +19,9 @@ namespace QuizGame
         }
     }
 
-
     [Serializable]
     public class QuizPlayer : User
     {
-        private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
-
         public List<CompleteQuiz> PassedQuizzes = new List<CompleteQuiz>();
 
         public int TotalPoints;
@@ -60,7 +56,7 @@ namespace QuizGame
             PassedQuizzes.Add(new CompleteQuiz(quiz, points, DateTime.Now));
     
             TotalPoints += points;
-            Logger.Info($" Завершил Викторину \"{quiz.field}\" Набрав {points} / {quiz.questions.Count} баллов. | Login: {Login}");
+            LoggerMes.logger.Info($" Завершил Викторину \"{quiz.name}\" Набрав {points} / {quiz.questions.Count} баллов. | Login: {Login}");
         }
 
         private string[] FillMenu(int count, List<Answer> answers) //Заполняет массив стрингов ответами для меню
@@ -79,7 +75,7 @@ namespace QuizGame
         public int Play(Quiz quiz)
         {
             ConsoleGui.SetPosition(48, 1, true);
-            ConsoleGui.WriteLineColor("ВИКТОРИНА: " + quiz.field, ConsoleColor.Cyan, true);
+            ConsoleGui.WriteLineColor("ВИКТОРИНА: " + quiz.name, ConsoleColor.Cyan, true);
             ConsoleGui.WriteLineColor("Количество вопросов: " + quiz.questions.Count, ConsoleColor.Yellow, true);
             ConsoleGui.Wait();
 
@@ -135,11 +131,13 @@ namespace QuizGame
                         }
                     }
 
-                    //---------------------Для тестирования
-                    ConsoleGui.SetPosition(55, 27);
-                    Console.WriteLine($"                                                  ");
-                    ConsoleGui.SetPosition(55, 27);
-                    Console.WriteLine($" {points} / {quiz.questions[i].CountCorrectAnswers()}");
+                    //---------------------Для тестирования---------------------------------{ Правильно отвеченых ответов / Правильных ответов }
+                    //ConsoleGui.SetPosition(55, 27);
+                    //Console.WriteLine($"                                                  ");
+                    //ConsoleGui.SetPosition(55, 27);
+                    //Console.WriteLine($" {points} / {quiz.questions[i].CountCorrectAnswers()}");
+                    //---------------------Для тестирования----------------------------------------------------- ^
+
                 }
 
                 if (points == quiz.questions[i].CountCorrectAnswers())
