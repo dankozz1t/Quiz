@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace QuizGame
 {
     public enum Access
@@ -19,7 +18,6 @@ namespace QuizGame
 
         public User() {}
 
-
         public User(string login, string password, string name, DateTime birthDay, Access access)
         {
             Login = login;
@@ -34,6 +32,5 @@ namespace QuizGame
         {
             return $"* Логин: {Login} | Пароль: ***** | Имя: {Name} | Дата рождения : {BirthDay.ToShortDateString()} | Доступ: {Access}";
         }
-
     }
 }
