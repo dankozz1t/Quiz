@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using QuizGame;
-using QuizEditor;
 
 namespace QuizProject
 {
@@ -14,6 +9,9 @@ namespace QuizProject
         {
             Console.OutputEncoding = System.Text.Encoding.Default;
             Console.Title = "МЕНЮ";
+
+            PlayersDatabase.LoadUsers();
+            QuizzesDatabase.LoadQuizzes();
 
             GlobalMenu menu = new GlobalMenu();
             menu.Start();
