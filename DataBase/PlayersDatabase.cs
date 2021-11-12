@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
-using System.Runtime.Serialization;
 
 namespace QuizGame
 {
@@ -9,7 +8,7 @@ namespace QuizGame
     {
         private PlayersDatabase() { }
 
-        private static List<QuizPlayer> Players;
+        private static List<QuizPlayer> Players = new List<QuizPlayer>();
 
         public static List<QuizPlayer> GetQuizPlayer()
         {
@@ -59,6 +58,5 @@ namespace QuizGame
                 }
             }
         }
-
     }
 }
